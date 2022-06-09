@@ -14,11 +14,11 @@ let videoSizeAndMaskSet, setMask, larguraVideoDesejado;
 
 function preload () //função para carregar os arquivos
 {
-  video1 = createVideo('video_3_ap.mp4', setVideoSizeAndMask); //carregar o vídeo e aplicar as configurações do vídeo
+  video1 = createVideo('https://contrainercia.github.io/video_3_ap.mp4', setVideoSizeAndMask); //carregar o vídeo e aplicar as configurações do vídeo
   video1.hide(); 
   video1.loop(); //reproduzir o video em looping
   
-  video2 = createVideo('video_4_ap.mp4', setVideoSizeAndMask); //carregar o vídeo e aplicar as configurações do vídeo
+  video2 = createVideo('https://contrainercia.github.io/video_4_ap.mp4', setVideoSizeAndMask); //carregar o vídeo e aplicar as configurações do vídeo
   video2.hide(); 
   video2.loop(); //reproduzir o video em looping
 }
